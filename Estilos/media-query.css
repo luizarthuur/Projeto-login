@@ -44,7 +44,14 @@
     section#login > div#formulario{
         float: right;
         width: 70%;
+    
     }
+
+    section#login > div#formulario > p {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+            
+    } 
     
 }
 
@@ -59,15 +66,26 @@
     }
 
     section#login > div#imagem{
-        float: left;
-        width: 33%;
+        float: right;
+        width: 40%;
         height: 100%;
         background-position: center;
     }
 
     section#login > div#formulario{
-        float: right;
-        width: 65%;
+        float: left;
+        width: 60%;
+    }
+
+    div#formulario{
+        margin-bottom: 10px;
+    }
+    
+
+    section#login > div#formulario > p {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        
     }
     
 }
