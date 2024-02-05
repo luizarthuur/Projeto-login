@@ -37,7 +37,7 @@ section#login{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
@@ -62,12 +62,119 @@ section#login > div#formulario {
 }
 
 div#formulario > h1{
-    padding: 10px;
+    padding-bottom: 10px;
     text-align: center;
-    margin: 10px;
+
 }
 
 div#formulario > p {
     font-size: 0.8em;
 }
 
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #13b28f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover{
+    background-color: rgb(9, 71, 71);
+    cursor: pointer;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:  #21fdce ;
+    border: 1px solid  #21fdce;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+form > span#botao{
+    font-size: 20px;
+    display: inline;
+}
+
+form > a.botao:hover{
+    background-color: rgb(9, 71, 71);
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
+    color: white;
+}
+
+form > div#campo{
+    width: 100%;
+    display: block;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+form > div#senha{
+
+    margin: -10px 0px 15px 0px;
+    
+
+}
+
+div#campo > label{
+    display: none;
+}
+
+div#senha > label{
+    display: none;
+}
+
+div#formulario > form > div#campo > span#person{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 2em;
+    transform: translateY(7px);
+    
+}
+
+div#formulario > form > div#senha > span#password{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 2em;
+    transform: translateY(12px);
+    
+    
+}
+
+div#campo > input {
+    background-color: #13b28f;
+    border-color: white;
+    border-radius: 8px;
+    font-size: 1em;
+    width: calc(100% - 44px);
+    height: 100%;
+}
+
+div#senha > input {
+    background-color: #13b28f;
+    border-color: white;
+    border-radius: 8px;
+    font-size: 1em;
+    height: 40px;
+    width: calc(100% - 44px);
+    transform: translateY(5px);
+}
+
+div#campo > input:focus-within{
+    background-color: white;
+}

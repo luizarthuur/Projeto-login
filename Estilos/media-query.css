@@ -31,6 +31,7 @@
 
     section#login{
         width: 950px;
+        height: 400px;
         
     }
 
@@ -52,6 +53,14 @@
         font-size: 1.2em;
             
     } 
+
+    div#formulario > form > input[type=submit]{
+        transform: translateY(50px);
+    }
+
+    form > a.botao{
+        transform: translateY(50px);
+    }
     
 }
 
@@ -63,6 +72,7 @@
 
     section#login {
         width: 990px;
+        height: 400px;
     }
 
     section#login > div#imagem{
@@ -87,5 +97,16 @@
         font-size: 1.2em;
         
     }
+
+    div#formulario > form > input[type=submit]{
+        transform: translateY(50px);
+    }
+
+    form > a.botao{
+        transform: translateY(50px);
+    }
+    
+
+
     
 }
